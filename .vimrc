@@ -1,7 +1,12 @@
 set encoding=UTF-8
 set fileencoding=UTF-8
 set number
+
+" 対応する括弧を強調する
 set showmatch
+
+" 0が前置されている数を加算減算したときに8進数計算しない
+set nrformats=
 
 "---------------------------
 " Start Neobundle Settings.
